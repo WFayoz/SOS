@@ -1,0 +1,118 @@
+header{
+    display: flex;
+    margin: 0 auto;
+    background-image: url(../../assets/images/headerbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .navigation{
+        @include dFlex;
+        padding-top: 20px;
+        position: sticky;
+        top: -12px;
+        background: transparent;
+        ul{
+            @include dFlex;
+            @include ul-list;
+            a{
+                color: #FFF;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 1.2px;
+                text-transform: uppercase;
+                &:hover{
+                    color: #F3AF34;
+                    transition: 0.3s;
+                }
+            }
+        }
+        div{
+            @include dFlex;
+            gap: 23px;
+            select{
+                background: transparent;
+                border: transparent;
+                color: #FFF;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 1.2px;
+                text-transform: uppercase;
+                option{
+                    background-color: black;
+                }
+            }
+            span{
+                height: 30px;
+                width: 0.874px;
+                border: 1px solid #FFF;
+                opacity: 0.5;
+            }
+        }
+    }
+    .hero{
+        @include dFlex;
+        flex-direction: column;
+        div{
+            @include dFlex;
+            flex-direction: column;
+            padding-top: 237px;
+            padding-bottom: 364px;
+            h1{
+                color: #FFF;
+                text-align: center;
+                font-size: 80px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+            }
+            h3{
+                padding-top: 7.28px;
+                color: #FFF;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+            }
+            button{
+                margin-top: 28px;
+                background-color: #F3AF34;
+                padding: 19px 17px;
+                cursor: pointer;
+                border: none;
+                border-radius: 4px;
+                border-radius: 4px;
+                background: linear-gradient(195deg, #FFB548 11.27%, #F3AF34 90.4%);
+                color: #1A1917;
+                text-align: center;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+        button{
+            @include dFlex;
+            flex-direction: column;
+            gap: 5px;
+            background: transparent;
+            border: transparent;
+            cursor: pointer;
+            margin-bottom: 50px;
+            h6{
+                color: #FFF;
+                text-align: justify;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 22px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
