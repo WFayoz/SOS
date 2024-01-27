@@ -1,0 +1,12 @@
+@mixin dFlex ($al-items:center,$jus-content:space-between) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin ul-list{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+}
