@@ -1,0 +1,31 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  list-style-position: outside;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.features {
+  color: red;
+}
+
+/*# sourceMappingURL=main.css.map */
