@@ -24,4 +24,139 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+header {
+  display: flex;
+  margin: 0 auto;
+  background-image: url(../../assets/images/headerbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  position: sticky;
+  top: -12px;
+  background: transparent;
+}
+header .navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+}
+header .navigation ul a {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+header .navigation ul a:hover {
+  color: #F3AF34;
+  transition: 0.3s;
+}
+header .navigation div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 23px;
+}
+header .navigation div select {
+  background: transparent;
+  border: transparent;
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+header .navigation div select option {
+  background-color: black;
+}
+header .navigation div span {
+  height: 30px;
+  width: 0.874px;
+  border: 1px solid #FFF;
+  opacity: 0.5;
+}
+header .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+header .hero div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 237px;
+  padding-bottom: 364px;
+}
+header .hero div h1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+header .hero div h3 {
+  padding-top: 7.28px;
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+header .hero div button {
+  margin-top: 28px;
+  background-color: #F3AF34;
+  padding: 19px 17px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  border-radius: 4px;
+  background: linear-gradient(195deg, #FFB548 11.27%, #F3AF34 90.4%);
+  color: #1A1917;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header .hero button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 5px;
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+header .hero button h6 {
+  color: #FFF;
+  text-align: justify;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=main.css.map */
