@@ -4,3 +4,11 @@
 @import './requirmentsection';
 @import './quotesection';
 @import './footer';
+
+.navigation{
+    @include dFlex;
+    padding-top: 20px;
+    position: sticky;
+    top: -12px;
+    background: transparent;
+}
